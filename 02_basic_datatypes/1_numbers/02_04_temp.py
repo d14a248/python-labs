@@ -10,3 +10,11 @@ Output should read like - "81.32 degrees fahrenheit = 27.4 degrees celsius"
 
 
 '''
+
+import math
+
+f = float(input("Enter the temperature in Fahrenheit: "))
+c = (f - 32) * (5 / 9)
+
+print(str(f) + " degrees fahrenheit = " + str((f - 32) * (5 / 9)))
+#works as expected for 81.32 but needs to round for other inputed teperatures

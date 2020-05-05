@@ -4,3 +4,9 @@ of a cylinder with a radius of 3.14 and a height of 5. Print out the result.
 
 
 '''
+
+radius = 3.14
+height = 5
+
+print("volume = " + str(3.14*(radius**2)*height))
+print("surface area = " + str(2*3.14*radius*height+2*3.14*(radius**2)))
