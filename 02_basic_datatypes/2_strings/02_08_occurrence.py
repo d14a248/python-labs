@@ -7,3 +7,7 @@ Letter input: o
 Result: 4
 
 '''
+
+phrase = input("Input a phrase: ")
+letter = input("Input a letter from the phrase: ")
+print(phrase.find(letter))

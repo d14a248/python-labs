@@ -11,3 +11,19 @@ CHALLENGE: Can you edit to script to print only the string with the most charact
            into the topic "Conditionals" to solve this challenge.
 
 '''
+
+count = 0
+list = []
+longest_word = ""
+
+while (count<3):
+    word = input("Input a word: ")
+    list.append(word)
+    count = count + 1
+    if len(word) > 0:
+        longest_word = word
+
+print(str(len(longest_word)) + ", " + longest_word)
+
+
+

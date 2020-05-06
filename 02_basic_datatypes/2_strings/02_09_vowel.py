@@ -6,3 +6,8 @@ CHALLENGE: Can you change the script so that it counts the occurrence of each in
            in the string and print a count for each of them?
 
 '''
+
+phrase = input("Input a phrase: ")
+vowels = ['a','e','i','o','u']
+for vowel in vowels:
+    print("There are " + str(phrase.count(vowel)) + " occurrences of the letter " + vowel + " in the phrase, " + phrase)
