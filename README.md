@@ -1,6 +1,6 @@
-# Python Programming
+# Python Programming (David)
 
-Here you can finda all the awesome labs for our CodingNomads online Python Programming course.
+Here you can find all the awesome labs for our CodingNomads online Python Programming course.
 
 ---
 
