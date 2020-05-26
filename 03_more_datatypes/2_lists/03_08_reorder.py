@@ -7,3 +7,14 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+numbers = []
+reordered = []
+
+for i in range(10):
+    numbers.append(int(input("Input a whole number: ")))
+print("The list in order received: " + str(numbers))
+
+ascending = [numbers[i] for i in range(1,10,2)]
+descending = [numbers[i] for i in range(8,-1,-2)]
+print("The list reordered: " + str(ascending + descending))
